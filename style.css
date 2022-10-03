@@ -1,0 +1,59 @@
+.bg-color{
+    background-color: rgb(53, 58, 64);
+}
+.p-nav{
+    padding: 5px 75px;
+}
+
+.filter{
+    filter:brightness(50%);
+}
+
+.p-banner{
+    padding-right: 110px;
+}
+
+.p-card{
+    padding: 0px 220px;
+    margin-bottom: 10px;
+}
+
+.scroll{
+    overflow-y: auto;
+    max-height: 120px;
+}
+
+.m-text{
+    margin-bottom: -30px;
+}
+
+.m-form{
+    margin: 20px 370px;
+}
+
+.btn-form{
+    background-color: rgb(150, 201, 62);
+}
+
+.bg-footer{
+    background: linear-gradient( 90deg, rgb(29, 55, 68), rgb(32, 83, 114));
+}
+
+.p-footer{
+    padding: 15px 150px;
+}
+.fs-7{
+    font-size: 14px;
+}
+
+.fs-8{
+    font-size: 12px;
+}
+
+.btn-shop{
+    background-color: rgb(44, 163, 69);
+}
+
+.text-shop{
+    color: rgb(44, 163, 69);
+}
