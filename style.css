@@ -64,13 +64,11 @@
         padding-right: 30px;
     }
 
-    .p-card{
-        padding: 0px;
-    }
-
     .m-form{
         margin: 20px 0px;
     }
 
-
+    .row{
+        margin-right: 0;
+    }
 }
