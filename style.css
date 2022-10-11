@@ -59,7 +59,12 @@
 
 /*Responsive*/
 
-@media (max-width: 576px) {
+@media screen and (max-width: 768px) {
+
+    .fs-nav{
+        font-size: 1rem !important;
+    }
+    
     .p-nav{
         padding: 0px;
     }
@@ -79,6 +84,9 @@
     .row{
         margin-right: 0px;
         margin-left: 0px;
+    }
+
+    .display{
         display: block;
     }
 
@@ -87,10 +95,70 @@
     }
 
     .fs-9{
+        font-size: 0.8rem!important;
+    }
+
+    .fs-10{
         font-size: 0.7rem!important;
     }
 
     .w-banner{
-        width: 75% !important;
+        width: 90% !important;
+    }
+
+    .gap-7{
+        row-gap: 0px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    
+    .fs-nav{
+        font-size: 1rem !important;
+    }
+
+    .p-nav{
+        padding: 0px;
+    }
+
+    .p-banner{
+        padding-right: 30px;
+    }
+
+    .p-card{
+        padding: 0px;
+    }
+
+    .m-form{
+        margin: 20px 0px;
+    }
+
+    .row{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .m-text {
+        margin-bottom: 0px;
+    }
+
+    .fs-9{
+        font-size: 2rem!important;
+    }
+
+    .fs-10{
+        font-size: 1rem!important;
+    }
+
+    .w-banner{
+        width: 90% !important;
+    }
+
+    .gap-7{
+        row-gap: 0px !important;
+    }
+
+    .p-footer{
+        padding: 0px !important;
     }
 }

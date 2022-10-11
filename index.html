@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-color p-nav navbar-expand-lg"><!----Barra de navegación----->
+        <nav class="navbar navbar-dark bg-color p-nav navbar-expand-md"><!----Barra de navegación----->
             <div class="container-fluid">
               <a class="navbar-brand text-white fs-4" href="#">
                 <img src="./IMG/CodoAcodo.png" alt="Logo" width="90" height="70" class="d-inline-block">
@@ -20,21 +20,21 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="nav fs-5">
+                <ul class="navbar-nav fs-5">
                   <li class="nav-item">
-                    <a class="nav-link text-white" aria-current="page" href="#Conferencia">La conferencia</a>
+                    <a class="nav-link text-white fs-nav" aria-current="page" href="#Conferencia">La conferencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#Oradores">Los oradores</a>
+                    <a class="nav-link text-white-50 fs-nav" href="#Oradores">Los oradores</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#Lugar">El lugar y la fecha</a>
+                    <a class="nav-link text-white-50 fs-nav" href="#Lugar">El lugar y la fecha</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#Formulario" tabindex="-1" aria-disabled="true">Conviértete en orador</a>
+                    <a class="nav-link text-white-50 fs-nav" href="#Formulario" tabindex="-1" aria-disabled="true">Conviértete en orador</a>
                   </li>
-                  <li class="nav-item ">
-                      <a class="nav-link text-shop" href="#" tabindex="-1" aria-disabled="true">Comprar tickets</a>
+                  <li class="nav-item">
+                      <a class="nav-link text-shop fs-nav" href="#" tabindex="-1" aria-disabled="true">Comprar tickets</a>
                     </li>
                 </ul>
               </div>
@@ -60,9 +60,9 @@
                   </div>
                 <div class="position-absolute top-50 end-0 translate-middle-y text-white text-end p-banner w-50 w-banner">
                   <h1 class="fs-9">Conf Bs As</h1>
-                  <p class="fs-5 fs-9">Bs As llego por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros delevento, a otros estudiantes de Codo a Coso y a los ordores de primer nivel que tenemos para ti. Te esperamos!</p>
-                  <button type="button" class="btn btn-outline-light fs-5 me-2 fs-9"><a href="#Formulario" class="text-decoration-none text-white">Quiero ser orador</a></button>
-                  <button type="button" class="btn btn-shop fs-5 text-white fs-9">Comprar tickets</button>
+                  <p class="fs-5 fs-10">Bs As llego por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros delevento, a otros estudiantes de Codo a Coso y a los ordores de primer nivel que tenemos para ti. Te esperamos!</p>
+                  <button type="button" class="btn btn-outline-light fs-5 me-2 fs-10"><a href="#Formulario" class="text-decoration-none text-white">Quiero ser orador</a></button>
+                  <button type="button" class="btn btn-shop fs-5 text-white fs-10">Comprar tickets</button>
 
                 </div>
               </div>
@@ -114,7 +114,7 @@
         </section>
         <section id="Lugar"> <!----Parte de la playa------>
             <div class="card mb-4">
-                <div class="row g-0">
+                <div class="row display g-0">
                   <div class="col">
                     <img src="./IMG/Playa.jpeg" class="img-fluid rounded-start" alt="Playa">
                   </div>
@@ -151,15 +151,17 @@
             </div>
         </section>
         <footer class="bg-footer"> <!----Footer----->
-          <div class="nav nav-pills flex-column flex-md-row p-footer">
-                <a class="flex-sm-fill text-sm-center nav-link text-white" aria-current="page" href="#">Preguntas<br>frecuentes</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white align-self-center" href="#">Contáctanos</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white align-self-center" href="#">Prensa</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white align-self-center">Conferencias</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white">Términos y<br>condiciones</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white align-self-center">Privacidad</a>
-                <a class="flex-sm-fill text-sm-center nav-link text-white align-self-center">Estudiantes</a>
-          </div>
+            <nav class="nav-pills flex-column flex-md-row p-footer">
+              <ul class="nav justify-content-center gap-5 gap-7">
+                <li><a class="flex-sm-fill text-sm-center nav-link text-white fs-nav" aria-current="page" href="#">Preguntas<br>frecuentes</a></li>
+                <li class="align-self-center"><a class="flex-sm-fill text-sm-center nav-link text-white  fs-nav" href="#">Contáctanos</a></li>
+                <li class="align-self-center"><a class="flex-sm-fill text-sm-center nav-link text-white fs-nav" href="#">Prensa</a></li>
+                <li class="align-self-center"><a class="flex-sm-fill text-sm-center nav-link text-white fs-nav">Conferencias</a></li>
+                <li><a class="flex-sm-fill text-sm-center nav-link text-white fs-nav">Términos y<br>condiciones</a></li>
+                <li class="align-self-center"><a class="flex-sm-fill text-sm-center nav-link text-white fs-nav">Privacidad</a></li>
+                <li class="align-self-center"><a class="flex-sm-fill text-sm-center nav-link text-white fs-nav">Estudiantes</a></li>
+              </ul>
+            </nav>
         </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
