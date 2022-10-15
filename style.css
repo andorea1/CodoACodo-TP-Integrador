@@ -112,6 +112,14 @@
     .gap-7{
         row-gap: 0px !important;
     }
+
+    .m-card{
+        margin: 50px 50px;
+    }
+    
+    .bg-pago{
+        margin: 0px 10px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
@@ -163,5 +171,13 @@
 
     .p-footer{
         padding: 0px !important;
+    }
+
+    .m-card{
+        margin: 50px 50px;
+    }
+
+    .bg-pago{
+        margin: 0px 10px;
     }
 }
