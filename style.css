@@ -68,6 +68,10 @@
         font-size: 1rem !important;
     }
     
+    .position-nav{
+        position: relative;
+    }
+
     .p-nav{
         padding: 0px;
     }
@@ -120,6 +124,8 @@
     .bg-pago{
         margin: 0px 10px;
     }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
