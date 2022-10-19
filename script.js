@@ -1,13 +1,13 @@
-function TipCalculate (){
-    var amount = document.getElementById("cantidad").value;
-    var service = document.getElementById("categoria").value;
+function TicketCalculate (){
+    var cantidad = document.getElementById("cantidad").value;
+    var categoria = document.getElementById("categoria").value;
 
-    if (amount === "" || service == 0){
-        alert("Por favor ingrese la cantidad y/o categoría")
+    if (cantidad === "" || categoria == 0){
+        alert("Por favor ingrese cantidad de tickets y/o categoría")
         return;
     }
 
-    var total = (amount * service);
+    var total = (cantidad * categoria);
 
     total = total.toFixed(2);
 
@@ -16,7 +16,7 @@ function TipCalculate (){
 }
 
 document.getElementById("comprar").onclick = function (){
-    TipCalculate();
+    TicketCalculate();
 };
 
 function Reset (){
