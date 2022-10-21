@@ -1,8 +1,13 @@
 .bg-color{
     background-color: rgb(53, 58, 64);
 }
+
 .p-nav{
     padding: 5px 75px;
+}
+
+.pt-6{
+    padding-top: 90px;
 }
 
 .filter{
@@ -66,10 +71,6 @@
 
     .fs-nav{
         font-size: 1rem !important;
-    }
-    
-    .position-nav{
-        position: relative;
     }
 
     .p-nav{

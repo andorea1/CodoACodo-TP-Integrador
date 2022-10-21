@@ -1,13 +1,13 @@
 function TicketCalculate (){
-    var cantidad = document.getElementById("cantidad").value;
-    var categoria = document.getElementById("categoria").value;
+    var amount = document.getElementById("cantidad").value;
+    var type = document.getElementById("categoria").value;
 
-    if (cantidad === "" || categoria == 0){
+    if (amount === "" || type == 0){
         alert("Por favor ingrese cantidad de tickets y/o categoría")
         return;
     }
 
-    var total = (cantidad * categoria);
+    var total = (amount * type);
 
     total = total.toFixed(2);
 
